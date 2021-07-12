@@ -32,6 +32,7 @@ public class TestClass
 	{
 		homepage.account(driver);
 		System.out.println("this is homepage");
+		System.out.println("Amezon");
 	}
 	@AfterMethod
 	public void refresh()
