@@ -31,7 +31,7 @@ public class TestClass
 	public void account() throws InterruptedException
 	{
 		homepage.account(driver);
-		
+		System.out.println("this is homepage");
 	}
 	@AfterMethod
 	public void refresh()
